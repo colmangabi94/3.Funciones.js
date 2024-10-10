@@ -11,21 +11,21 @@
     function  multiplicarPorDos(num) {
         return num * 2;
         }
-
+console.log (esPar(4)); // imprime true
 
 
 // 1.3 Crea una función llamada `esMayorDeEdad` que tome un número como parámetro y devuelva `true` si es mayor de 18, o `false` en caso contrario.
  function   esMayorDeEdad(edad) {
     if edad >= 18;
 }
-
+console.log (esMayorDeEdad(25)); // imprime true
 
 // 2. Parámetros
 // 2.1 Crea una función llamada `multiplicar` que reciba dos parámetros, los multiplique y devuelva el resultado.
    function   multiplicar(a, b) {
     return a * b;
     }
-    console.log(multiplicar(5, 6)); // imprime 30
+console.log(multiplicar(5, 6)); // imprime 30
 
 
 // 2.2 Escribe una función llamada `saludarPersonalizado` que reciba dos parámetros: `nombre` y `apellido`. La función debe devolver "Hola, [nombre] [apellido]".
